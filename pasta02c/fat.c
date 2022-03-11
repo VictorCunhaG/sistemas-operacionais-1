@@ -4,14 +4,14 @@ para executar: clear && gcc fat.c -o fat && ./fat 3 && echo
 fontes:
     - https://www.geeksforgeeks.org/fork-system-call/
     - https://www.geeksforgeeks.org/factorial-calculation-using-fork-c-linux/
-*/
+*/  
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/types.h>
 #include <string.h>
 #include <stdlib.h>
-
+  
 int main(int argc , char *argv[])
 {
 	pid_t pid; // pegando o id do processo
